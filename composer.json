@@ -32,13 +32,13 @@
         }
     },
     "require": {
-        "php": "~8.0.0 || ~8.1.0 || ~8.2.0",
+        "php": "^8.2",
         "laminas-api-tools/api-tools-api-problem": "^1.6",
         "laminas-api-tools/api-tools-content-negotiation": "^1.8",
         "laminas/laminas-eventmanager": "^3.3",
         "laminas/laminas-http": "^2.14",
         "laminas/laminas-mvc": "^3.2",
-        "laminas/laminas-servicemanager": "^3.11",
+        "laminas/laminas-servicemanager": "^3.11 || ^4.0",
         "laminas/laminas-stdlib": "^3.3",
         "laminas/laminas-view": "^2.12"
     },
